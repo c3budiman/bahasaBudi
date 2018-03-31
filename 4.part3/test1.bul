@@ -1,0 +1,6 @@
+var sisi,luas
+print 'input sisi'
+input sisi
+luas=-(-sisi*sisi)
+print 'luas adalah '
+print luas

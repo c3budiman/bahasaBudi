@@ -1,0 +1,3 @@
+var panjang,lebar,luas,keliling
+panjang=2
+print panjang

@@ -1,0 +1,21 @@
+$. cd ~
+
+$. wget http://www.antlr3.org/download/antlr-3.5.2-complete.jar
+
+$. sudo gedit ~./bashrc
+// it needs sudo or root previlages! to install it for all users!
+
+// add this to the last page..
+export CLASSPATH=~/antlr-3.3-complete.jar:$CLASSPATH
+
+$. exit
+
+//open ur terminal again
+
+//check if it installed correctly : 
+$. java org.antlr.Tool -version
+
+//Expect output like the following:
+//ANTLR Parser Generator  Version 3.3 Nov 30, 2010 12:50:56
+
+congrats u just installed antlr!

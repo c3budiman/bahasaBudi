@@ -1,0 +1,11 @@
+compile the java
+run java and compile your .e program
+it outputs the assembly language
+gcc compile it :
+gcc -m32 namafile.s -o namafile.exe
+
+if u cant compile it, install following package
+"gcc-multilib" and "g++-multilib"
+sudo apt-get install gcc-multilib g++-multilib
+
+run ./

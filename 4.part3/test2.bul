@@ -1,0 +1,11 @@
+var panjang,lebar,luas,keliling
+print 'input panjang'
+input panjang
+print 'input lebar'
+input lebar
+luas=panjang*lebar
+print 'luas adalah '
+print luas
+keliling=(2*panjang)+(2*lebar)
+print 'Keliling adalah '
+print keliling
